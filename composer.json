@@ -1,0 +1,32 @@
+{
+    "name": "devgears/zf2passwordstrength",
+    "description": "Validates password strentgh.",
+    "keywords": ["validator", "password", "zendframework"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Davi Marcondes Moreira (@devdrops)",
+            "email": "davi.marcondes.moreira@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.zendframework.com/"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.3.23",
+        "zendframework/zendxml": "~1.0-dev",
+        "zendframework/zend-validator": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "DevGears": "src/"
+        },
+        "psr-4": {
+            "DevGears\\": "src/"
+        }
+    }
+}
