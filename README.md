@@ -16,7 +16,7 @@ This class can't do:
  - Prevent that your passwords won't be hacked. Remember: a safe house is composed not only by a padlock in your gate, but also by a whole set of safe measures.
 
 ###What does it requires?
-Please check `composer.lock` for details.
+Please check `composer.json` for details.
 
 ###Where is the demo?
 
